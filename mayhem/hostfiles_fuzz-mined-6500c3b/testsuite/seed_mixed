@@ -1,0 +1,4 @@
+# comment
+
+@revoked other.example ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGlPGVzTaI7is4A3c3zSv/JJ59Qp3QYxJfV9qLfF1/vk
+*.example,host.example ssh-rsa AAAAB3NzaC1yc2E=
