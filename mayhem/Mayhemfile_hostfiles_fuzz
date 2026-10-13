@@ -1,0 +1,9 @@
+project: savantenvs/hpn-ssh
+target: hostfiles_fuzz-mined-6500c3b
+cmds:
+  - cmd: /mayhem/hostfiles_fuzz
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/hostfiles_fuzz.dict
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/hostfiles_fuzz-mined-6500c3b/testsuite
