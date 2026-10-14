@@ -1,0 +1,2 @@
+alice,bob valid-before="20991231"
+carol@example.com valid-after="20200101"
