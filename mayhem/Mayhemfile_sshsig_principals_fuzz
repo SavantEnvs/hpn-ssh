@@ -1,0 +1,9 @@
+project: savantenvs/hpn-ssh
+target: sshsig_principals_fuzz-mined-8f3b180
+cmds:
+  - cmd: /mayhem/sshsig_principals_fuzz
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/sshsig_principals_fuzz.dict
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/sshsig_principals_fuzz-mined-8f3b180/testsuite

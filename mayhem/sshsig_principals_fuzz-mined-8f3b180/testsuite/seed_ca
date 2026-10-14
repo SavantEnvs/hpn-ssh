@@ -1,0 +1,2 @@
+*@example.com cert-authority
+"dave smith" cert-authority,principals="alice"
